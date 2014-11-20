@@ -1,11 +1,7 @@
 url: 'http://localhost:8082'
 
 mongodb:
-  server:   localhost
-  database: uptime
-  user:     root 
-  password:
-  connectionString:       # alternative to setting server, database, user and password separately
+  connectionString: mongodb://CloudFoundry_e660ig1f_ck6ulcpk_jigcjlh2:H16le-Xfr0uE0HXXL5aWdZaTUIhuQp5y@ds063449.mongolab.com:63449/CloudFoundry_e660ig1f_ck6ulcpk      # alternative to setting server, database, user and password separately 
 
 monitor:
   name:                   origin
